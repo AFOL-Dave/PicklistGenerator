@@ -49,6 +49,7 @@
                 case "BRIGHT VIOLET":
                     return "PURPLE";
                 case "BRIGHT YELLOW":
+                case "BR.YEL":
                     return "YELLOW";
                 case "BRIGHT YELLOW GREEN":
                 case "BRIGHT YELLOWISH GREEN":
@@ -111,6 +112,8 @@
                     return "METALLIC GOLD";
                 case "GREY":
                     return "LIGHT GRAY";
+                case "L.NOUGAT":
+                    return "LIGHT NOUGAT";
                 case "LAVENDER":
                     return "LAVENDER";
                 case "LEMON METALLIC":
@@ -121,6 +124,8 @@
                     return "AQUA";
                 case "LIGHT BLUISH VIOLET":
                     return "LIGHT VIOLET";
+                case "LGH.ROY.BLUE":
+                    return "BRIGHT LIGHT BLUE";
                 case "LIGHT BROWN":
                     return "FABULAND ORANGE";
                 case "LIGHT GREEN":
@@ -167,7 +172,7 @@
                     return "DARK PURPLE";
                 case "MEDIUM NOUGAT":
                 case "M. NOUGAT":
-                    return "MEDIUM DARK FLESH";
+                    return "MEDIUM NOUGAT";
                 case "MEDIUM RED":
                     return "SALMON";
                 case "MEDIUM REDDISH VIOLET":
@@ -202,19 +207,32 @@
                 case "PINK":
                     return "MEDIUM DARK PINK";
                 case "REDDISH BROWN":
+                case "RED. BROWN":
                     return "REDDISH BROWN";
                 case "ROYAL BLUE":
                     return "BLUE-VIOLET";
                 case "SAND BLUE":
                     return "SAND BLUE";
+                case "SAND GREEN":
+                    return "SAND GREEN";
                 case "SAND YELLOW":
                     return "DARK TAN";
+                case "SILVER METAL.":
+                    return "FLAT SILVER";
+                case "TITAN. METAL.":
+                    return "PEARL DSRK GREY";
                 case "TR.":
                     return "TRANSPARENT";
                 case "TR. BROWN OPAL":
                     return "TRANSPARENT BROWN";
+                case "TR.BLUE":
+                    return "TRANS DARK BLUE";
+                case "TR.BROWN":
+                    return "TRANSPARENT BLACK";
                 case "TR.L.BLUE":
                     return "TRANSPARENT LIGHT BLUE";
+                case "W.GOLD":
+                    return "PEARL GOLD";
                 case "WHITE":
                     return "WHITE";
                 default:
